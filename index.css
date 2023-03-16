@@ -1,0 +1,134 @@
+* {
+	scroll-behavior: smooth;
+	
+}
+
+
+html {
+		scroll-behavior: smooth;
+		background-color: #040202 ;
+	}
+
+body {
+		font-family: 'Varela Round', sans-serif;
+	
+}
+
+   
+/*
+Ash gray= 8e9b90 
+Cambridge blue= 93c0a4 
+Sage= b6c4a2 
+Dutch white= d4cdab 
+Beige= dce2bd  
+*/
+
+/*<!--   
+Cadet Grey= 99a09f 
+African Violet= 9a82c1
+Gold= dfb822
+Black= 040202 
+Grey= 242625
+BodyText= d0dddd
+-->*/
+
+
+
+.palette-grey {
+	background-color: #242625;
+}
+
+.palette-black {
+	background-color: #040202;
+}
+
+.trans-bg {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.black-back {
+	background-color: rgb(0, 0, 0);
+}
+
+.banner {
+	height: 500px;
+	background-color: #040202 ;
+}
+
+.text-body {
+	color: #d0dddd;
+}
+
+.bg-body {
+	background-color: #292d33;
+	
+}
+
+.text-header {
+	color: #dfb822;
+}
+
+.bg-projects {
+	background-color: #dfb822;
+}
+
+.border-projects {
+	border: 3px solid #d0dddd;
+}
+
+.background-top {
+	min-height: 100vh;
+	background-color: black;
+	background-image: url("./images/top-bg-pic.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*image being centered horizontally, alignment with the top of the element vertically*/
+	background-position: center bottom;
+	background-attachment: scroll;
+}
+.background-mid {
+	min-height: 100vh;
+	background-color: gray;
+	background-image: url("./images/mid-bg-pic.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+	/*image being centered horizontally, alignment with the top of the element vertically*/
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+
+.background-bottom {
+	min-height: 100vh;
+	background-color: black;
+	background-image: url("./images/bottom-bg-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*image being centered horizontally, alignment with the top of the element vertically*/
+	background-position: center bottom;
+	background-attachment: scroll;
+}
+
+.tools-border1 {
+	border-bottom: 5px dotted #9a82c1 ;
+}
+
+.tools-border2 {
+	border-bottom: 3px dotted #dfb822 ;
+}
+
+.bg-palette1 {
+	background-color: #99a09f ;
+}
+
+.bg-palette2 {
+	background-color: #9a82c1 ;
+}
+
+.bg-palette3 {
+	background-color: #dfb822 ;
+}
+
+.form-border {
+	border: 5px dotted #d0dddd ;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Capstone 1</title>
+
+	<!-- AOS+ -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- +AOS -->
+
+	<!-- BOOTSTRAP+ -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<!-- BOOTSTRAP+ -->
+
+
+	<!-- FONT+ -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<!-- +FONT -->
+
+	<!-- EXTERNAL_CSS+ -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- +EXTERNAL_CSS -->
+</head>
+<body class="black-back">
+
+	<!-- MODAL -->
+	<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Thank you for contacting me!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-muted">
+					Message Succesfully Sent 
+					<p>Please expect a response within <span class="font-weight-bold">5-7 working days</span></p>
+				</div>
+				<div class="justify-content-center modal-footer">
+					<button type="button" class="btn bg-projects " data-dismiss="modal">Understood</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MODAL END -->
+
+
+	<!-- NAVBAR+ -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark trans-bg pt-3">
+		<a class="navbar-brand border rounded-pill px-5 text-white " href="#about-me">AJ Morales</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span> 
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active ">
+					<a class="nav-link text-white " href="#about-me">About Me <span class="sr-only trans-bg">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#tools">Tools</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- +NAVBAR -->
+
+	<!-- ABOUT ME+ -->
+	<div class="background-top">
+		<div class="d-flex px-5 min-vh-100  " id="about-me">
+			<div class="row align-items-center pt-5 justify-content-center ">
+				<div class="col-lg-5 text-center "> 
+					<img src="images/me.png" class="img-fluid px-5 mt-lg-0 mt-5 rounded-circle">
+				</div>
+				<div class=" col-lg-7 ">
+					<h1 class="d-inline-block text-left my-5 py-0 py-lg-5 display-1 text-header border-bottom">AJ - Nerd.</h1>
+					<h4 class=" justify-content-start text-white rounded border p-3 mr-3"> &mdash; Hi. I'm AJ Morales. 
+					From modding the games I played to creating ways of automating my daily activites in my previous job; I've always had a keen interest in how code worked. Now, I plan on making a career of it. </h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- +ABOUT ME -->
+
+	<!-- TOOLS+ -->
+	<div class="background-mid">
+		<div data-aos="fade-up" id="tools">
+			<div  class=" h-auto pt-5 ">
+				<h3 class="container text-center tools-border1 pb-3 mt-5 text-white">Core Tools</h3>
+				<div class="d-flex flex-column mb-5">
+					<div class="d-flex justify-content-center">
+						<img src="images/logo-html5.png"/>
+					</div>
+					<div class="d-flex justify-content-center">
+						<img src="images/logo-css3.png"/>
+						<img src="images/logo-javascript.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-aos="fade-up"> 	
+			<h4 class="container text-center tools-border2 pb-3 px-5 mt-3 text-white">Other Tools</h4>
+
+			<div class="d-flex flex-md-column align-items-center ml-sm-3">
+				<div class="d-md-flex justify-content-center align-items-center pl-5 pl-md-0 ">
+					<img src="images/logo-mongodb.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-nodejs.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-expressjs.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-react.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-heroku.png" class="img-fluid py-3 py-md-0">
+				</div>
+				<div class="d-md-flex justify-content-center align-items-center pr-5 pr-md-0">
+					<img src="images/logo-git.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-sublime-text-3.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-postman.png" class="img-fluid py-3 py-md-0">
+					<img src="images/logo-gitlab-ci-cd.png" class="img-fluid py-3 py-md-0">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- +TOOLS -->
+
+
+
+	<!-- PROJECTS -->
+	<div class="background-mid">
+		<div data-aos="zoom-in" class=" min-vh-100 m-auto p-0 p-lg-5 w-75 text-white" id="projects">
+
+			<h2 class="container text-center tools-border mt-lg-3 text-white">Projects</h2>
+
+			<div class="d-lg-flex justify-content-center p-md-5">
+
+				<!-- HTML CARD -->
+				<div class="border-projects rounded-lg col-xl-4 mb-5 mb-xl-0 mx-xl-5">
+					<div class="card-body ">
+						<img src="images/html.jpg" class="card-img-top" alt="...">
+						<h5 class="card-title  mt-3">HTML</h5>
+						<h6 class="card-subtitle text-muted mb-2">Programming Basics</h6>
+						<p class="card-text">Through Zuitt bootcamp &mdash; regarded as one of the best coding bootcamps in the Philippines &mdash; I learned the basics of what will soon become my career path. Notably, I learned HTML as well as Semantic HTML in order to get a grasp on the roots of web development and understand what makes it all tick.</p>
+						<a target="_blank" href="projects/html/contact.html" class="card-link text-danger rounded-lg">Link to project</a>
+					</div>
+				</div>
+				<!-- HTML CARD END -->
+
+				<!-- BOOTSTRAP CARD -->
+				<div class="border-projects rounded-lg col-xl-4 mb-5 mb-xl-0 mx-xl-5">
+					<div class="card-body">
+						<img src="images/bootstrap.png" class="card-img-top" alt="...">
+						<h5 class="card-title  mt-3">Bootstrap</h5>
+						<h6 class="card-subtitle text-muted mb-2">Rapid Prototyping</h6>
+						<p class="card-text ">Building on that knowledge, I then supplemented my skills with ensuring that the design aspect of my outputs would not be left unchecked. Through projects and activities, I learned CSS, Bootstrap, Frontend Development, and Responsive Web Design; to ensure that if I made something - it wouldn’t just work, it would look good doing it.</p>
+						<a target="_blank" href="projects/bootstrap/activity.html" class="card-link text-danger rounded-lg">Link to project</a>
+					</div>
+				</div>
+				<!-- BOOTSTRAP CARD END -->
+
+				<!-- NODE.JS CARD -->
+				<div class="border-projects rounded-lg col-xl-4 mb-5 mb-xl-0 mx-xl-5">
+					<div class="card-body">
+						<img src="images/node.jpg" class="card-img-top" alt="...">
+						<h5 class="card-title  mt-3">Node.JS Server</h5>
+						<h6 class="card-subtitle text-muted mb-2">Backend Basics</h6>
+						<p class="card-text ">*This will one day be updated. I very much look forward to working with Node.JS to further enrich my knowledge and skillset to propel me into this career path.</p>
+						<a target="_blank" href="https://assets.materialup.com/uploads/df95f5e0-ae6b-4f12-998e-62d64890d2f6/preview.png" class="card-link text-danger rounded-lg">Link to project</a>
+					</div>
+				</div>
+				<!-- NODE.JS CARD END -->
+			</div>
+		</div>
+	</div>
+	<!-- PROJECTS END -->
+
+	<!-- CONTACT FORM -->
+	<div class="d-flex align-items-center justify-content-center flex-column  background-bottom" id="contact">	
+		<h3 data-aos="fade-up" class="container text-center pb-3 mt-5 text-white">Contact Form</h3>	
+		<form data-aos="fade-up" class="form-border p-5 col-12 col-md-9">
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputFName" class="text-white">First Name</label>
+					<input type="text" class="form-control" id="inputFName" placeholder="John/Jane" >
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputLName" class="text-white">Last Name</label>
+					<input type="text" class="form-control" id="inputLName" placeholder="Doe" >
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="inputEmail" class="text-white">Email Address</label>
+				<input type="email" class="form-control" id="inputEmail" placeholder="example@example.com">
+				<small id="emailHelp" class="form-text font-italic text-white">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="inputContactNumber" class="text-white">Contact Number</label>
+				<input type="number" class="form-control" id="inputContactNumber" placeholder="+63 9000000000" >
+			</div>
+
+			<div class="form-group">
+				<label for="inputState" class="text-white">Concern</label>
+				<select id="inputState" class="form-control">
+					<option selected>Quotation</option>
+					<option>Consultation</option>
+					<option>One-On-One Session</option>
+				</select>
+			</div>
+			<div class="form-group" >
+				<label for="Message" class="text-white">Message</label>
+				<textarea class="form-control pb-3 pb-md-5" id="Message" rows="3"></textarea>
+			</div>
+
+			<!-- MODAL BUTTON -->
+			<button type="button" class="btn btn-light mt-3" data-toggle="modal" data-target="#staticBackdrop">
+				Send Email
+			</button>
+			<!-- MODAL BUTTON END -->
+		</form>
+	</div>
+	<!-- CONTACT FORM END-->
+
+	<!-- FOOTER+ -->
+	<div class=" text-white text-center py-3 my-md-0 ">
+		<span><a target="_blank" href="https://www.facebook.com/AJMrlsAJMrls/">Facebook</a></span>
+		<span>|</span>
+		<span><a target="_blank" href="https://www.linkedin.com/in/aj-morales/">LinkedIn</a></span>
+		<span>|</span>
+		<span>Privacy Policy</span>
+		<span>|</span>
+		<span>&copy; 2023 ajb.mrls. All Rights Reserved</span>
+	</div>
+	<!-- +FOOTER -->
+
+
+	<!-- Bootstrap Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init({
+		duration: 1200,
+	});</script>
+</body>
+</html>
